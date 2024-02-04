@@ -1,0 +1,8 @@
+[Unit]
+Description=updating pi-frame via update_piframe.sh
+
+[Service]
+Type=simple
+ExecStart=/absolute/path/to/update_piframe.sh
+StandardOutput=append:/absolute/path/to/piframe.log
+StandardError=append:/absolute/path/to/piframe.log

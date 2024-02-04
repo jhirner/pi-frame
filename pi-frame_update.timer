@@ -1,0 +1,9 @@
+[Unit]
+Description=Updating the pi-frame on boot.
+
+[Timer]
+OnBootSec=90
+OnUnitActiveSec=5m
+
+[Install]
+WantedBy=timers.target
